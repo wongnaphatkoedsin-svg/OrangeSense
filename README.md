@@ -23,6 +23,9 @@ Hardware
 * Push Button
 * Lithium Battery
 
+![OrangeSense Circuit](https://raw.githubusercontent.com/wongnaphatkoedsin-svg/OrangeSense/main/circuit.png)
+
+
 Methodology
 
 1. Measure white reference spectrum
