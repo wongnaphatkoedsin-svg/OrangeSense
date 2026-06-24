@@ -20,7 +20,7 @@ Features
 
 Hardware
 
-* PCBfun ESP32-S3
+* ESP32-S3
 * AS7263 VIS/NIR Spectral Sensor
 * 1.47” TFT LCD Display
 * Push Button
