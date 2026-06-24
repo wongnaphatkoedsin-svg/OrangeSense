@@ -34,6 +34,7 @@ Methodology
 Best MLR Model
 
 Brix = -39.102377 - 38.803934(R610) + 20.472840(R680) + 74.262429(R760) - 46.117035(A610) + 102.133231(A730) + 47.008893(A810)
+
 Calibration R² = 0.6337; alibration RMSE= 1.4397 °Brix; LOOCV R²= 0.5435; LOOCV RMSE= 1.6072 °Brix
 
 Applications
