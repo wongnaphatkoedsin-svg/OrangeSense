@@ -6,6 +6,9 @@ The system uses an AS7263 multispectral sensor to measure reflected light at six
 
 The prediction model was developed from spectral measurements collected from 57 orange samples and deployed on an ESP32-S3 microcontroller, allowing standalone operation without the need for a computer.
 
+![OrangeSense Circuit](https://github.com/wongnaphatkoedsin-svg/OrangeSense/blob/main/OrangeSense.png)
+
+
 Features
 
 * Non-destructive sweetness measurement
