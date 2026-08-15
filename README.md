@@ -4,7 +4,7 @@ OrangeSense is a low-cost portable VIS/NIR spectroscopic device developed for th
 
 The system uses an AS7263 multispectral sensor to measure reflected light at six wavelengths (610, 680, 730, 760, 810, and 860 nm). Spectral data are converted into reflectance and absorbance values and processed using a Multiple Linear Regression (MLR) model to predict orange sweetness in real time.
 
-The prediction model was developed from spectral measurements collected from 57 orange samples and deployed on an ESP32-S3 microcontroller, allowing standalone operation without the need for a computer.
+The prediction model was developed from spectral measurements collected from 53 orange samples and deployed on an ESP32-S3 microcontroller, allowing standalone operation without the need for a computer.
 
 ![OrangeSense Circuit](https://github.com/wongnaphatkoedsin-svg/OrangeSense/blob/main/OrangeSense01.png)
 
@@ -39,9 +39,9 @@ Methodology
 
 Best MLR Model
 
-Brix = -39.102377 - 38.803934(R610) + 20.472840(R680) + 74.262429(R760) - 46.117035(A610) + 102.133231(A730) + 47.008893(A810)
+Brix = -32.421822 - 33.970504(R610) + 20.545394(R680) - 69.613837 (R730) + 131.275340 (R760) - 47.053119(A610) + 81.624047(A760) + 60.949098 (A810)
 
-Calibration R² = 0.6337; alibration RMSE= 1.4397 °Brix; LOOCV R²= 0.5435; LOOCV RMSE= 1.6072 °Brix
+Calibration R² = 0.724 ; alibration RMSE= 1.15  °Brix; LOOCV R²= 0.614 ; LOOCV RMSE= 1.36 °Brix
 
 Applications
 
@@ -53,6 +53,6 @@ Applications
 
 Authors
 
-OrangeSense Project Team (Wongnathat Koedsin)
+OrangeSense Project Tea
 Phuket Wittayalai School, Phuket, Thailand
 
