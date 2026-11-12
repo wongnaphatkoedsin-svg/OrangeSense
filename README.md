@@ -96,9 +96,9 @@ Backward elimination kept **7 of the 12 variables**:
 
 | Tool | Approx. cost (THB) | Non-destructive |
 |---|---:|:---:|
-| **OrangeSense** | **1,583** | ✅ |
+| **OrangeSense** | **1,650** | ✅ |
 | AS7265X sensor (sensor only) | 3,890 | ✅ |
-| Refractometer | 1,000 – 30,000+ | ❌ (requires juice) |
+| Refractometer | 1,000 – 30,000+ | ❌ (requires juice)/destructive|
 
 ---
 
